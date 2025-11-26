@@ -14,7 +14,6 @@ import Home4 from './pages/Home4.jsx';
 import About from './pages/About.jsx';
 import Team from './pages/Team.jsx';
 import SingleTeam from './pages/SingleTeam.jsx';
-import PricingPlan from './pages/PricingPlan.jsx';
 import GetQuote from './pages/GetQuote.jsx';
 import OurClients from './pages/OurClients.jsx';
 import Testimonials from './pages/Testimonials.jsx';
@@ -91,12 +90,6 @@ function App() {
           <Route path="/SingleTeam" element={
             <MainLayout>
               <SingleTeam />
-            </MainLayout>
-          }
-          />
-          <Route path="/PricingPlan" element={
-            <MainLayout>
-              <PricingPlan />
             </MainLayout>
           }
           />

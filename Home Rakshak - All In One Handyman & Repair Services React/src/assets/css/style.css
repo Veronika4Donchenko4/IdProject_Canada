@@ -239,7 +239,7 @@ button {
 /*-----------------------[ 4.Whole Page scroll Aniamtion CSS ]------------------------*/
 /*-----------------------[ 5.Header CSS ]------------------------*/
 .small-header {
-    background: var(--2, #F16122);
+    background: var(--2, #D50000);
     padding: 10px 0;
 }
 .small-header-sub-main {
@@ -766,7 +766,7 @@ header {
     pointer-events: none;
 }
 .services-slider-box:hover::before {
-    background: linear-gradient(180deg, rgba(241, 97, 34, 0.00) 0%, #F16122 100%);
+    background: linear-gradient(180deg, rgba(241, 97, 34, 0.00) 0%, #D50000 100%);
 }
 .services-icon-box {
     position: absolute;
@@ -1487,7 +1487,7 @@ header {
     margin-bottom: 15px;
 }
 .accordion-button:not(.collapsed) {
-    color: var(--2, #F16122);
+    color: var(--2, #D50000);
     background-color: rgba(241, 97, 34, 0.1) !important;
 }
 #accordionExample.accordion {
@@ -1967,7 +1967,7 @@ button.bottom-top-button:hover {
     line-height: 30px;
 }
 .diamond-next-btn:hover h4 {
-    color: #F16122;
+    color: #D50000;
 }
 /*-----------------------[ 23.Pricing Page CSS ]------------------------*/
 #pricing-bg {
@@ -2455,7 +2455,7 @@ input:checked+.slid-btn:before {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    background: #F16122;
+    background: #D50000;
     color: var(--5, #FFF);
     font-family: Outfit;
     font-size: 20px;
@@ -3110,7 +3110,7 @@ input:checked+.slid-btn:before {
 }
 .contact-deatils-head .CallUs-phone p,
 .contact-deatils-head .CallUs-phone {
-    background-image: linear-gradient(to right, #F16122 45%, #000 55%);
+    background-image: linear-gradient(to right, #D50000 45%, #000 55%);
 }
 .contact-deatils-head .CallUs-phone:hover p,
 .CallUs-phone:hover {

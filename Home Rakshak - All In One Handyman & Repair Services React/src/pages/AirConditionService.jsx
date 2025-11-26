@@ -205,20 +205,6 @@ const AirConditionService = () => {
                                     </li>
                                 </ul>
                             </div>
-                            <div className="ad-box">
-                                <img src={FooterLogo} alt="footer-logo" />
-                                <h3 className="frist-services">Get 10% Off on Your First Service</h3>
-                                <div className="testimonials-btn mt-0" id="ad-btn">
-                                    <Link to="/PricingPlan" className="btn-main btn1">Grab The Offer
-                                        <span className="arrow-section">
-                                            <img className="arrow" src={RightArrowSvg} alt="right-arrow-svg" />
-                                        </span>
-                                        <div className="btn-box-left btn1"></div>
-                                        <div className="btn-box-right btn1"></div>
-                                    </Link>
-                                </div>
-                                <img className="plumbing-services-img5" src={PlumbingServicesImg5} alt="plumbing-services-img5" />
-                            </div>
                             <div className="documents-box">
                                 <Link to="#" className="brochure-main">
                                     <div className="brochure">

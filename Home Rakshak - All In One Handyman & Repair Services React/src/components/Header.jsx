@@ -61,10 +61,10 @@ const Header = () => {
                 <div className="small-header">
                     <div className="container small-header-sub-main">
                         <div className="small-header-sub">
-                            <a href="mailto:contact@home.rakshak.com">
-                                <p><img src={EmailImg} alt="email" /> contact@home.rakshak.com</p>
+                            <a href="mailto:idprojectyyc@gmail.com">
+                                <p><img src={EmailImg} alt="email" /> idprojectyyc@gmail.com</p>
                             </a>
-                            <p><img src={LocationImg} alt="location" /> 2972 Westheimer 96 Rd. Mexico</p>
+                            <p><img src={LocationImg} alt="location" /> 631 17 Ave NW Calgary</p>
                         </div>
                         <div className="small-header-media-main">
                             <a href="https://www.facebook.com"><img src={FacebookImg} alt="facebook" /></a>
@@ -124,7 +124,7 @@ const Header = () => {
                             </li>
 
                             <li className={`wrapper wrapper-men ${[
-                                "/About", "/Team", "/SingleTeam", "/PricingPlan", "/GetQuote",
+                                "/About", "/Team", "/SingleTeam", "/GetQuote",
                                 "/OurClients", "/Testimonials", "/FaqPage", "/NotFound", "/ComingSoon"
                             ].includes(location.pathname) ? "active-dropdown" : ""
                                 }`}>
@@ -145,9 +145,6 @@ const Header = () => {
                                                 </li>
                                                 <li>
                                                     <Link className={`submenu-link ${location.pathname === "/SingleTeam" ? "active-sub" : ""}`} to="/SingleTeam">Single Team</Link>
-                                                </li>
-                                                <li>
-                                                    <Link className={`submenu-link ${location.pathname === "/PricingPlan" ? "active-sub" : ""}`} to="/PricingPlan">Pricing Plan</Link>
                                                 </li>
                                                 <li>
                                                     <Link className={`submenu-link ${location.pathname === "/GetQuote" ? "active-sub" : ""}`} to="/GetQuote">Get Your Quote</Link>
@@ -308,7 +305,7 @@ const Header = () => {
                         <div className="icon"><img src={HeadphoneSvg} alt="phone" /></div>
                         <div className="call-info">
                             <p>Call Us</p>
-                            <Link to="tel:+12483578866">+1 (248) 357 8866</Link>
+                            <Link to="tel:+18252886133">+1 (825) 288-6133</Link>
                         </div>
                     </div>
 
